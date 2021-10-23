@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>three.js webgl - glTF loader</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css">
+</head>
+
+<body>
+
+<div id="viewer"></div>
+
+<script type="module">
+   import {gltfViewer} from './three-gltf-viewer.js'
+
+   gltfViewer('viewer', 'spheres.glb', 'ninomaru_teien_2k.hdr');
+</script>
+
+</body>
+</html>

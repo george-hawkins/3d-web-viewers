@@ -1,0 +1,23 @@
+/* This styling for the three.js iframe and containing divs is taken from  https://manu.ninja/webgl-3d-model-viewer-using-three-js/ */
+.FlexEmbed {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.FlexEmbed-ratio--16by9 {
+    padding-bottom: 56.25%;
+}
+
+.FlexEmbed-ratio {
+    display: block;
+    width: 100%;
+}
+.FlexEmbed-content {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-width: 0px;
+}
